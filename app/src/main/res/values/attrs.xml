@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PanelLoadingView">
+        <attr name="loadingViewPanelColor" format="color"/>
+        <attr name="rotatePanelDirection" format="boolean"/>
+        <attr name="loadingViewPanelSpeed" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="CircleLoadingView">
+        <attr name="loadingViewCircleSpeed" format="integer"/>
+        <attr name="loadingViewCircleColor" format="color"/>
+    </declare-styleable>
+</resources>

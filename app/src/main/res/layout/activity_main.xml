@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="5"
+    android:columnCount="4">
+    <com.example.myapplication.lib.PanelLoadingView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:loadingViewPanelColor="@color/colorAccent"
+        app:loadingViewPanelSpeed="5"
+        app:rotatePanelDirection="true"/>
+    <com.example.myapplication.lib.CircleLoadingView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:loadingViewCircleColor="@color/colorAccent"
+        app:loadingViewCircleSpeed="5"/>
+    <com.example.myapplication.lib.StarLoadingView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.example.myapplication.lib.LoadingView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.example.myapplication.lib.PanelLoadingView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:loadingViewPanelColor="@color/colorAccent"
+        app:loadingViewPanelSpeed="5"
+        app:rotatePanelDirection="true"/>
+    <com.example.myapplication.lib.CircleLoadingView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:loadingViewCircleColor="@color/colorAccent"
+        app:loadingViewCircleSpeed="5"/>
+    <com.example.myapplication.lib.StarLoadingView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.example.myapplication.lib.LoadingView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</GridLayout>
